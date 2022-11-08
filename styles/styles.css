@@ -124,6 +124,8 @@ body {
   background-image: url(https://github.com/mendalkalukasz/goit-markup-hw-04/blob/main/images/background.jpg?raw=true);
   background-color: var(--background);
   background-blend-mode: difference;
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--white);
   width: 100%;
   display: flex;
