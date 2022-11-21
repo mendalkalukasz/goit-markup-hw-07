@@ -488,6 +488,3 @@ body {
 .image img {
   display: block;
 }
-.image:hover .products-caption {
-  box-shadow: 0 4px 7px 1px var(--text-color-g);
-}
