@@ -110,12 +110,16 @@ body {
 }
 .link-no-underline {
   text-decoration: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-header {
   fill: var(--grey);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-header:hover,
 .icons-header:focus {
@@ -281,6 +285,8 @@ body {
   background-color: var(--white);
   border-radius: 50%;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-clients {
   padding: 94px 0;
@@ -300,6 +306,8 @@ body {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-logo:hover {
   fill: var(--blue);
@@ -323,6 +331,8 @@ body {
   border-radius: 3px;
   padding: 6px 22px;
   font-family: 'Roboto';
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-button:focus,
 .filter-button:hover {
@@ -387,6 +397,8 @@ body {
 }
 .footer-links {
   color: var(--footerlinks);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-container {
   flex-direction: column;
@@ -419,9 +431,10 @@ body {
 .footer-icon {
   width: 44px;
   height: 44px;
-  background-color: var(--footericon);
   border-radius: 50%;
   fill: var(--white);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -438,6 +451,7 @@ body {
 
 .modal {
   position: relative;
+  margin: auto;
   background-color: white;
   width: 528px;
   display: flex;
