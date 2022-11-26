@@ -456,29 +456,39 @@ body {
 }
 
 .modal {
-  position: relative;
-  margin: auto;
-  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 528px;
-  display: flex;
-  justify-content: right;
-  height: 581px;
-  border-radius: 5px;
-  visibility: inherit;
-  opacity: inherit;
-  transition: ease-out 450ms;
+  min-height: 581px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .close-btn {
   position: absolute;
+  margin: 0;
   top: 8px;
   right: 8px;
   width: 30px;
   height: 30px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1019607843);
+  transition-property: background-color, fill, cursor;
+  transition-duration: 250ms;
+  transition-timing-function: cubick-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop-modal-close-icon {
+  margin: 5px 5px 5px 5px;
+}
+.close-btn:hover, .close-btn:focus {
+  background-color: #2196f3;
+  fill: white;
 }
 
 .is-hidden {
