@@ -286,7 +286,7 @@ body {
   background-color: var(--white);
   border-radius: 50%;
   fill: #afb1b8;
-  transition-property: fill;
+  transition-property: fill, background-color, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
