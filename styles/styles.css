@@ -118,6 +118,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -285,6 +286,7 @@ body {
   background-color: var(--white);
   border-radius: 50%;
   fill: #afb1b8;
+  transition-property: fill, background-color; border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -306,6 +308,7 @@ body {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
+  transition-property: fill, border
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -331,6 +334,7 @@ body {
   border-radius: 3px;
   padding: 6px 22px;
   font-family: 'Roboto';
+  transition-property: border-radius, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -397,6 +401,7 @@ body {
 }
 .footer-links {
   color: var(--footerlinks);
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -433,6 +438,7 @@ body {
   height: 44px;
   border-radius: 50%;
   fill: var(--white);
+  transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
