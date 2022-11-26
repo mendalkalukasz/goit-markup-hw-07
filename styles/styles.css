@@ -286,7 +286,7 @@ body {
   background-color: var(--white);
   border-radius: 50%;
   fill: #afb1b8;
-  transition-property: fill, background-color; border-radius;
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -308,7 +308,7 @@ body {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
-  transition-property: fill, border
+  transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -570,7 +570,9 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter-subscription-form-box input:hover, .newsletter-subscription-form-box input:focus, .newsletter-subscription-form-box input:focus-within {
+.newsletter-subscription-form-box input:hover,
+.newsletter-subscription-form-box input:focus,
+.newsletter-subscription-form-box input:focus-within {
   outline: none;
   background-color: #2f303a;
   border: 2px solid #2196f3;
@@ -608,7 +610,9 @@ body {
   transition-property: fill;
   transition-duration: 250ms;
 }
-.newsletter-subscription-form-box button:hover, .newsletter-subscription-form-box button:focus, .newsletter-subscription-form-box button:focus-within {
+.newsletter-subscription-form-box button:hover,
+.newsletter-subscription-form-box button:focus,
+.newsletter-subscription-form-box button:focus-within {
   border-radius: 5px;
   background-color: #0d83e4;
   color: #f3ebeb;
