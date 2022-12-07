@@ -113,6 +113,21 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+ .active::after {
+  content: '';
+  border-bottom: 2px solid #2196f3;
+  border-radius: 2px;
+  width: 100%;
+  top: 45px;
+  left: 0;
+  position: absolute;
+}
+
+.active {
+  position: relative;
+}
+
 .icons-header {
   fill: var(--grey);
   display: flex;
@@ -425,6 +440,7 @@ body {
   margin-left: 70px;
   margin-bottom: 20px;
   font-weight: 14px;
+  transition-property: color;
 }
 .footer-icons {
   display: flex;
@@ -437,6 +453,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white);
   transition-property: fill, background-color;
   transition-duration: 250ms;
@@ -460,6 +477,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin: auto;
   width: 528px;
   min-height: 581px;
   border-radius: 4px;
