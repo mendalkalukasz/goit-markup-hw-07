@@ -114,7 +114,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- .active::after {
+.active::after {
   content: '';
   border-bottom: 2px solid #2196f3;
   border-radius: 2px;
@@ -481,7 +481,8 @@ body {
   width: 528px;
   min-height: 581px;
   border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
@@ -504,7 +505,8 @@ body {
 .backdrop-modal-close-icon {
   margin: 5px 5px 5px 5px;
 }
-.close-btn:hover, .close-btn:focus {
+.close-btn:hover,
+.close-btn:focus {
   background-color: #2196f3;
   fill: white;
 }
@@ -646,4 +648,174 @@ body {
   color: #f3ebeb;
   fill: #f3ebeb;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.backdrop-modal-order-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 12px;
+  width: 448px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.backdrop-modal-order-box {
+  margin: 12px 40px 12px 40px;
+}
+.backdrop-modal-order-box-items {
+  position: relative;
+  margin-bottom: 10px;
+}
+.backdrop-modal-order-box-items input,
+.backdrop-modal-order-box-items label,
+.backdrop-modal-order-box-items textarea {
+  margin: 0;
+  padding: 0;
+  display: block;
+  outline: none;
+}
+.backdrop-modal-order-box-items input:hover,
+.backdrop-modal-order-box-items input:active,
+.backdrop-modal-order-box-items input:focus,
+.backdrop-modal-order-box-items input:focus-within,
+.backdrop-modal-order-box-items label:hover,
+.backdrop-modal-order-box-items label:active,
+.backdrop-modal-order-box-items label:focus,
+.backdrop-modal-order-box-items label:focus-within,
+.backdrop-modal-order-box-items textarea:hover,
+.backdrop-modal-order-box-items textarea:active,
+.backdrop-modal-order-box-items textarea:focus,
+.backdrop-modal-order-box-items textarea:focus-within {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+.backdrop-modal-order-box-items label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.backdrop-modal-order-box-items input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding-left: 40px;
+}
+.backdrop-modal-order-box-items svg {
+  bottom: 11px;
+  left: 12px;
+  position: absolute;
+}
+.backdrop-modal-order-box-items textarea {
+  width: 100%;
+  height: 120px;
+  resize: none;
+  padding: 12px 16px 12px 16px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  font-family: inherit;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 4px;
+}
+.backdrop-modal-order-box-items textarea::-moz-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+.backdrop-modal-order-box-items textarea:-ms-input-placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+.backdrop-modal-order-box-items textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+.backdrop-modal-order-agreement {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.backdrop-modal-order-agreement-check {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 3px;
+  margin-top: 5px;
+  z-index: 3;
+  cursor: pointer;
+}
+.backdrop-modal-order-agreement-check:hover,
+.backdrop-modal-order-agreement-check:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+.backdrop-modal-order-agreement-check input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  cursor: pointer;
+}
+.backdrop-modal-order-agreement-check svg {
+  position: absolute;
+  fill: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.backdrop-modal-order-agreement-check input:checked ~ svg {
+  fill: #2196f3;
+}
+.backdrop-modal-order-agreement label {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-left: 7px;
+}
+.backdrop-modal-order-agreement label a {
+  color: #2196f3;
+}
+.backdrop-modal-order-send {
+  display: flex;
+  justify-content: center;
+}
+.backdrop-modal-order-send button {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop-modal-order-send button:hover,
+.backdrop-modal-order-send button:focus {
+  background-color: #1791f5;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
