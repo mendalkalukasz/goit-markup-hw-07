@@ -57,7 +57,7 @@ body {
 .footer-icon:focus,
 .team-card-icon:hover,
 .team-card-icon:focus {
-  background-color: var(--blue);
+  background-color: rgba(255, 255, 255, 0.1);
   fill: var(--white);
   cursor: pointer;
 }
@@ -115,13 +115,14 @@ body {
 }
 
 .active::after {
-  content: '';
-  border-bottom: 2px solid #2196f3;
-  border-radius: 2px;
-  width: 100%;
-  top: 45px;
-  left: 0;
   position: absolute;
+  display: block;
+  content: '';
+  width: 100%;
+  height: 4px;
+  top: 45px;
+  background-color: #2196f3;
+  border-radius: 2px;
 }
 
 .active {
@@ -133,7 +134,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-property: fill;
+  transition-property: fill, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -421,10 +422,9 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-container {
-  flex-direction: column;
+  flex-direction: row;
   color: var(--white);
   display: flex;
-  flex-direction: row;
 }
 .footer-link-list {
   list-style: none;
@@ -532,6 +532,7 @@ body {
   transform: translateY(+100%);
   transition: transform 250ms ease;
   background-color: #2195f3da;
+  cursor: pointer;
 }
 
 .overlay p {
