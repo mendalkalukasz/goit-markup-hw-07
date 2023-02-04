@@ -57,7 +57,7 @@ body {
 .footer-icon:focus,
 .team-card-icon:hover,
 .team-card-icon:focus {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--blue);
   fill: var(--white);
   cursor: pointer;
 }
@@ -198,7 +198,6 @@ body {
 .our-speciality-text {
   line-height: 0.03em;
   line-height: 1.71;
-  width: 270px;
   margin: 0;
 }
 .speciality-icon {
@@ -537,6 +536,7 @@ body {
 
 .overlay p {
   color: var(--white);
+  letter-spacing: normal;
   padding-top: 49px;
   padding-bottom: 49px;
   padding-left: 24px;
