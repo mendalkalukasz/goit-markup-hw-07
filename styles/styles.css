@@ -534,13 +534,11 @@ body {
   cursor: pointer;
 }
 
-.overlay p {
+.overlay-txt {
   color: var(--white);
   letter-spacing: normal;
-  padding-top: 49px;
-  padding-bottom: 49px;
-  padding-left: 24px;
-  padding-right: 45px;
+  line-height: 28px;
+  padding: 50px 24px;
   font: 400;
 }
 
@@ -571,7 +569,6 @@ body {
   margin-left: 78px;
 }
 .newsletter-subscription-title {
-  padding-top: 72px;
   padding-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
