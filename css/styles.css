@@ -436,7 +436,6 @@ body {
   font-weight: 700;
   color: var(--white);
   text-transform: uppercase;
-  margin-left: 70px;
   margin-bottom: 20px;
   font-weight: 14px;
   transition-property: color;
@@ -444,7 +443,6 @@ body {
 .footer-icons {
   display: flex;
   gap: 10px;
-  margin-left: 70px;
   list-style: none;
   padding: 0;
 }
@@ -457,6 +455,9 @@ body {
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-joinus {
+  margin-left: 70px;
 }
 
 .backdrop {
