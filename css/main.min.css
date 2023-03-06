@@ -2,7 +2,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 :root {
   --white: #fff;
   --black: #000;
@@ -61,7 +60,6 @@ body {
   fill: var(--white);
   cursor: pointer;
 }
-
 .header {
   align-items: center;
   gap: 93px;
@@ -113,7 +111,6 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .active::after {
   position: absolute;
   display: block;
@@ -124,11 +121,9 @@ body {
   background-color: #2196f3;
   border-radius: 2px;
 }
-
 .active {
   position: relative;
 }
-
 .icons-header {
   fill: var(--grey);
   display: flex;
@@ -145,7 +140,6 @@ body {
 .icon-spacing {
   margin-right: 10px;
 }
-
 .top-section {
   background-image: url(https://github.com/mendalkalukasz/goit-markup-hw-04/blob/main/images/background.jpg?raw=true);
   background-color: var(--background);
@@ -179,7 +173,6 @@ body {
   font-weight: 700;
   font-size: 16px;
 }
-
 .our-speciality {
   padding: 94px 0 0 0;
   display: flex;
@@ -231,7 +224,6 @@ body {
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
 }
-
 .our-services-box p {
   font-family: 'Roboto';
   font-weight: 700;
@@ -250,7 +242,6 @@ body {
   position: relative;
   background-color: #fff;
 }
-
 .our-team-background {
   background-color: var(--notwhite);
   padding: 94px 0;
@@ -332,7 +323,6 @@ body {
   fill: var(--blue);
   border: var(--blue) solid 1px;
 }
-
 .filter-buttons {
   display: flex;
   justify-content: center;
@@ -362,7 +352,6 @@ body {
   color: var(--white);
   cursor: pointer;
 }
-
 .product-container {
   display: flex;
   gap: 30px;
@@ -399,7 +388,6 @@ body {
 .header-line-border {
   border-bottom: var(--lightcream) solid 1px;
 }
-
 .footer {
   width: 100%;
   background-color: var(--darkgrey);
@@ -460,7 +448,6 @@ body {
 .footer-joinus {
   margin-left: 70px;
 }
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -472,7 +459,6 @@ body {
   justify-content: center;
   transition-duration: 400ms;
 }
-
 .modal {
   position: absolute;
   top: 50%;
@@ -486,7 +472,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
-
 .close-btn {
   position: absolute;
   margin: 0;
@@ -502,7 +487,6 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubick-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop-modal-close-icon {
   margin: 5px 5px 5px 5px;
 }
@@ -511,13 +495,11 @@ body {
   background-color: #2196f3;
   fill: white;
 }
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-
 .box-overlay {
   position: relative;
   width: 372px;
@@ -535,7 +517,6 @@ body {
   background-color: #2195f3da;
   cursor: pointer;
 }
-
 .overlay-txt {
   color: var(--white);
   letter-spacing: normal;
@@ -543,7 +524,6 @@ body {
   padding: 50px 24px;
   font: 400;
 }
-
 .container-products {
   display: flex;
   justify-content: center;
@@ -556,7 +536,6 @@ body {
   padding: 0;
   flex-basis: calc((100% -60px) 3);
 }
-
 .image {
   margin: 0px;
 }
@@ -566,7 +545,6 @@ body {
 .image img {
   display: block;
 }
-
 .newsletter-subscription {
   margin-left: 78px;
 }
@@ -649,7 +627,6 @@ body {
   fill: #f3ebeb;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
 }
-
 .backdrop-modal-order-title {
   display: flex;
   justify-content: center;
