@@ -12,8 +12,9 @@
   transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-logo:hover {
-  fill: var(--blue);
-  border: var(--blue) solid 1px;
+
+  &:hover {
+    fill: var(--blue);
+    border: var(--blue) solid 1px;
+  }
 }
